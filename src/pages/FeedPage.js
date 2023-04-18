@@ -1,4 +1,9 @@
+
+import { useAthorization } from "../hooks/useAuthorization";
+
 function FeedPage() {
+
+  useAthorization()
 
   return (
     <main>
